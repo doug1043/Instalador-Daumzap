@@ -16,6 +16,7 @@ O **Instalador Daumzap** oferece várias opções de instalação, seja para ser
 
 ```bash
 git clone https://github.com/doug1043/Instalador-Daumzap.git
+cd Instalador-Daumzap
 sudo chmod +x run.sh
 sudo ./run.sh
 ```
