@@ -29,15 +29,6 @@ APP_SH_PATH="$TEMP_DIR/install-daumzap/variables/_app.sh"
 # Solicitar a chave do cliente
 read -p "Insira sua chave de acesso: " client_key
 
-# Verificar se a chave já existe no arquivo _app.sh e atualizar
-if grep -q "^client_key=" "$APP_SH_PATH"; then
-    # Substituir o valor existente de client_key
-    sed -i "s|^client_key=.*|client_key=\"$client_key\"|" "$APP_SH_PATH"
-else
-    # Adicionar client_key se ela não existir
-    echo "client_key=\"$client_key\"" >> "$APP_SH_PATH"
-fi
-
 # Enviar a chave do cliente para a API e obter a chave de descriptografia
 RESPONSE=$(curl -s --max-time 10 -X POST -H "Content-Type: application/json" -d "{\"client_key\":\"$client_key\"}" $API_URL)
 
@@ -79,6 +70,15 @@ INSTALL_SCRIPT="$TEMP_DIR/install-daumzap/install_system"
 if [ ! -f "$INSTALL_SCRIPT" ]; then
     echo "ERRO ARCHIVES"
     exit 1
+fi
+
+# Verificar se a chave já existe no arquivo _app.sh e atualizar
+if grep -q "^client_key=" "$APP_SH_PATH"; then
+    # Substituir o valor existente de client_key
+    sed -i "s|^client_key=.*|client_key=\"$client_key\"|" "$APP_SH_PATH"
+else
+    # Adicionar client_key se ela não existir
+    echo "client_key=\"$client_key\"" >> "$APP_SH_PATH"
 fi
 
 # Executar o script principal de instalação com permissões elevadas
