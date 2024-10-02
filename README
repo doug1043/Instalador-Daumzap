@@ -1,0 +1,5 @@
+Dentro da pasta install execute os seguintes comandos:
+
+sudo chmod +x run.sh
+
+sudo ./run.sh
