@@ -12,7 +12,7 @@ O **Instalador Daumzap** oferece várias opções de instalação, seja para ser
 
 ## Instruções de Instalação
 
-1. Dentro da pasta do instalador, execute os seguintes comandos:
+1. No terminal do seu servidor, execute os seguintes comandos:
 
 ```bash
 git clone https://github.com/doug1043/Instalador-Daumzap.git
