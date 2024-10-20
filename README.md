@@ -21,6 +21,11 @@ sudo chmod +x run.sh
 sudo ./run.sh
 ```
 
+## 🛠️ Projeto
+
+Para instalar o Daumzap, utilize nosso instalador disponível no GitHub:  
+[Whaticket-Daumzap](https://github.com/doug1043/Whaticket-Daumzap)
+
 ## Suporte:
 
 Para mais informações, clique [aqui](https://daumzap.com.br "Daumzap") ou entre em contato por e-mail: contato@daumzap.com.br
