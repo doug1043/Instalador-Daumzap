@@ -21,7 +21,7 @@ sudo chmod +x run.sh
 sudo ./run.sh
 ```
 
-## 🛠️ Projeto
+## Projeto
 
 Acesse o diretório do projeto disponível no GitHub:  
 [Whaticket-Daumzap](https://github.com/doug1043/Whaticket-Daumzap)
