@@ -21,10 +21,10 @@ bash
 
 Copiar código
 ```
-`git clone https://github.com/doug1043/Instalador-Daumzap.git
+git clone https://github.com/doug1043/Instalador-Daumzap.git
 cd Instalador-Daumzap
 sudo chmod +x run.sh
-sudo ./run.sh` 
+sudo ./run.sh
 ```
 
 ----------
