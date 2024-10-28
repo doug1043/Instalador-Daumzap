@@ -63,10 +63,10 @@ yaml
 
 Copiar código
 ```
-`🔗 Selecione o protocolo a ser usado:
+🔗 Selecione o protocolo a ser usado:
 1) HTTP
 2) HTTPS
-Digite o número correspondente ao protocolo desejado:` 
+Digite o número correspondente ao protocolo desejado: 
 ```
 
 -   **Nota**: Para instalações locais, escolha sempre HTTP. Para instalações com acesso externo (via VPS ou tunelamento), escolha HTTPS.
