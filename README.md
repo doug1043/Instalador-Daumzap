@@ -23,15 +23,25 @@ Copiar código
 ```
 git clone https://github.com/doug1043/Instalador-Daumzap.git
 cd Instalador-Daumzap
-sudo chmod +x run.sh
-sudo ./run.sh
+
+# Para servidores com arquitetura AMD64 (x86_64)
+sudo chmod +x install-daumzap-amd64
+
+# Para servidores com arquitetura ARM64
+sudo chmod +x install-daumzap-arm64
+
+# AMD64
+sudo ./install-daumzap-amd64
+
+# ARM64
+sudo ./install-daumzap-arm64
 ```
 
 ----------
 
 ### 🛠 **Execução do Script**
 
-Após executar o comando `sudo ./run.sh`, o script solicitará as seguintes informações:
+Após executar o script solicitará as seguintes informações:
 
 #### 1. **Inserir senha para o usuário Deploy e Banco de Dados**
 
