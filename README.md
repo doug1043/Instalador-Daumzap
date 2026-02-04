@@ -139,8 +139,8 @@ Essas informações detalham cada passo necessário para a instalação do siste
 
 ### Primeiro acesso
 
-Usuário padrão: admin@daumzap.com
-Senha: mudar@123
+- Usuário padrão: admin@daumzap.com
+- Senha: mudar@123
 
 ## Projeto
 
@@ -150,4 +150,5 @@ Acesse o diretório do projeto disponível no GitHub:
 ## Suporte:
 
 Para mais informações, clique [aqui](https://daumzap.com.br "Daumzap") ou entre em contato por e-mail: contato@daumzap.com.br
+
 
