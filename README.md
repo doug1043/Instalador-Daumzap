@@ -137,6 +137,11 @@ Após a criação, basta acessar o Portainer e importar o conteúdo do arquivo `
 
 Essas informações detalham cada passo necessário para a instalação do sistema, seja em VPS, localmente, com tunelamento Cloudflare ou via Docker.
 
+### Primeiro acesso
+
+Usuário padrão: admin@daumzap.com
+Senha: mudar@123
+
 ## Projeto
 
 Acesse o diretório do projeto disponível no GitHub:  
@@ -145,3 +150,4 @@ Acesse o diretório do projeto disponível no GitHub:
 ## Suporte:
 
 Para mais informações, clique [aqui](https://daumzap.com.br "Daumzap") ou entre em contato por e-mail: contato@daumzap.com.br
+
